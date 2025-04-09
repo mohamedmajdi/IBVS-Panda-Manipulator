@@ -1,7 +1,9 @@
 # Franka Panda Robot Object Tracking using IBVS
+
 <div align="center">
-<img src = "Simulation_IBVS.mp4" width="90%">
+<vid src = "Simulation_IBVS.mp4" width="90%">
 </div>
+
 ## Overview
 
 This project implements a **Visual Servoing** system for a Franka Panda robot in a PyBullet simulation environment. The robot tracks and moves toward a red ball using the **Image-Based Visual Servoing (IBVS)** control method. The system detects the ball in the camera feed, estimates its position in 3D space, and uses the visual error (displacement in image space) to control the robot's motion and align it with the object.
