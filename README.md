@@ -1,8 +1,11 @@
 # Franka Panda Robot Object Tracking using IBVS
 
 <div align="center">
-<vid src = "Simulation_IBVS.mp4" width="90%">
+    <video src="Simulation_IBVS.mp4" width="90%" controls>
+        Your browser does not support the video tag.
+    </video>
 </div>
+
 
 ## Overview
 
