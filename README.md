@@ -60,6 +60,7 @@ This code is designed with modularity in mind. Several components of the simulat
     conda create --name <env_name> --file requirements.txt
    ```
 3. **Running the simulation**
-    ```bash
-       Run `IBVS_panda_arm.py` and interact with the GUI sliders to move the object in the simulation
-    ```
+     -  Run `IBVS_panda_arm.py` and interact with the GUI sliders to move the object in the simulation
+
+4. **Analyzing the Control Performance**
+      - Run `results_plottings.py` to plot and analyze the control performance data that will be stored during simulation in the `simulation_data.csv` log file
