@@ -1,4 +1,4 @@
-# Franka Panda Robot Object Tracking using IBVS
+# Object Tracking using Image-Based Visual Servoing in Franka Panda Manipulator
 
 ## Overview
 
