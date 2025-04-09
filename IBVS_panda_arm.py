@@ -66,6 +66,7 @@ def update_joints():
         p.setJointMotorControl2(franka_id, i, p.POSITION_CONTROL, targetPosition=joint_position)
 
 # Get camera view matrix from end-effector 
+# source: https://github.com/bulletphysics/bullet3/issues/1616
 def panda_camera():
     com_p, com_o, _, _, _, _ = p.getLinkState(franka_id, 11, computeForwardKinematics=True)
     rot_matrix = p.getMatrixFromQuaternion(com_o)
